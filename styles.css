@@ -1,0 +1,89 @@
+*{
+    text-align: center;
+    box-sizing: border-box;   
+}
+
+h1, h2{
+    font-size: 50px;
+    font-family:'Lucida Sans';
+    color: #79A3F7
+}
+hr{
+    border: 5px solid #79A3F7;
+}
+
+.top-line{
+    text-align: right;
+    margin-right: 100px;
+}
+.color{
+    background-color: white;  
+    width: 100%;
+    height: 150px;
+    border: 50px solid #382daa;
+}
+.friends p{
+    display: inline-block;
+}
+.friendspics img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+    
+}
+button {
+    border-radius: 50%;
+    background-color:#342AA1;
+    color:white;
+    font-size: 20px;
+    font-family: "Georgia";
+    width: 300px;
+    height: 75px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    background-color: #6d8cce;
+    color: white;
+  }
+  
+
+.love{
+    background-image: url("media/heart.png");
+    height: 300px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Sophie{
+    width: 300px;
+    height: 200px;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+  }
+  .gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  .head{
+    background-color: #342AA1;
+    height: 300px;
+    width: 100%
+  }
+  h3{
+    font-size: 30px;
+    font-family:"Georgia";
+    color: #315bae
+  }
